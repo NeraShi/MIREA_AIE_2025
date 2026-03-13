@@ -1,0 +1,22 @@
+{
+  "dataset": "EMNIST",
+  "seed": 312,
+  "model": {
+    "hidden_dims": [
+      512,
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout_p": 0.0,
+    "use_batchnorm": true
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.002,
+    "batch_size": 512,
+    "epochs_trained": 6
+  },
+  "best_val_accuracy": 0.8375434027777777,
+  "test_accuracy": 0.8352145455979012
+}

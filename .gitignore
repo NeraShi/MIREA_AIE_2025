@@ -55,3 +55,6 @@ logs/
 *.tmp
 *.bak
 *.old
+
+# директории больших external датасетов
+homeworks/HW08-09/data
