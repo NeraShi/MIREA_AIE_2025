@@ -1,0 +1,7 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C3,classification,CIFAR100,161,ResNet,Adam,0.001,12.0,0.5923,,,,,"Pretrained, backbone frozen"
+C4,classification,CIFAR100,161,ResNet,Adam,0.0001,12.0,0.7271,0.721,,,,Fine-tune layer4 + fc
+C1,classification,CIFAR100,161,SimpleCNN,Adam,0.001,12.0,0.3838,,,,,No augmentations
+C2,classification,CIFAR100,161,SimpleCNN,Adam,0.001,12.0,0.366,,,,,With augmentations
+V1,segmentation,OxfordIIITPet,161,DeepLabV3_ResNet50,,,,,,0.7856,0.9708,0.7659,Base processing
+V2,segmentation,OxfordIIITPet,161,DeepLabV3_ResNet50,,,,,,0.7857,0.9711,0.7661,Morphological cleaning
