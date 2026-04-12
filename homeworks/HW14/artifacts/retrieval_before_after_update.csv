@@ -1,0 +1,4 @@
+query,expected_source,before_retrieved_sources,after_retrieved_sources,changed
+Что отвечает за удержание кварков внутри адронов?,doc_11,"doc_09, doc_02, doc_06","doc_09, doc_02, doc_06",False
+Какое взаимодействие нарушает зеркальную симметрию и отвечает за бета-распад?,doc_12,"doc_08, doc_05, doc_09","doc_12, doc_08, doc_05",True
+Как механизм Хиггса объясняет наличие массы у частиц?,doc_13,"doc_07, doc_09, doc_01","doc_13, doc_07, doc_09",True
